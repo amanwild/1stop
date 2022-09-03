@@ -1,0 +1,405 @@
+body{
+    display:flexbox;
+}
+.nav{   
+    width: 100%;
+    height: 100px;
+    background-color: #0e8fc2;
+    position:fixed;
+    
+    top: 0;  
+    right: 0;
+    left: 0;
+
+}
+.nav_img{
+    padding: 10px;
+}
+.nav_img img{
+    padding: 4px;
+    height: 80px;
+    width: auto;
+    }
+.nav .side{   
+    position:fixed;  
+    top: 0;
+    right: 0;
+    padding:32px 40px;     
+}
+.nav .side a{
+    text-decoration: none;
+    margin-right:20px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;    
+}
+.nav .side a:hover{    
+    text-decoration: underline;
+}
+.main{
+    background-image: url(background.jpg);
+    background-size: cover;
+      text-align: center;
+    background-repeat: no-repeat;
+    
+    height: 400px;
+    
+  
+}
+.main_container{
+    margin-top:100px;
+   
+    text-align: center;    
+}
+.main_container h2{   
+    color: #2277d5;
+   line-height: 1.5;
+    padding:60px 19px;   
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.main .main_container .a{
+    font-size: 20px;
+    font-style:bold;
+    /* opacity: 0.8; */
+    line-height: 1.5;
+    padding:5px 19px 45px 19px;   
+
+}
+.main .btn{     
+    text-align: center;
+   
+}
+.main  .btn button{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: none ;
+    border-width: 0px;
+    background-color: #55afec;
+    font-size: large;
+    font-weight: bold;
+}
+.main  .btn button:hover{
+    background-color: #1b7cbd;
+    border: none;
+    
+    transition: 0.5s;
+}
+.product_stuf{
+background-color: aqua;
+width: 100%;
+display:flex;
+padding: 10px;
+box-shadow: 1;
+}
+.product_stuf .item{
+    
+    text-align: center;
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.33%;
+    margin: 18px;
+    height: auto;
+
+}
+.product_stuf .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15) ;
+}
+.product_stuf .item .item_imag{
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.product_stuf .item .item_imag img{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.product_stuf .item .btn button{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: none ;
+    border-width: 0px;
+    background-color: #55afec;
+    font-size: large;
+    font-weight: bold;
+}
+.product_stuf .item .btn button:hover{
+    background-color: #1b7cbd;
+    border: none;
+    
+    transition: 0.5s;
+}
+.explore{
+    text-align: center;
+   height: 100px;
+   background-color: aqua;
+   padding-top: 20px;
+}
+.explore a{
+padding-top: 20px;
+   font-weight: bold;
+    margin: auto;
+    width: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color:red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;border-radius: 15px;
+}
+.explore a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+}
+.keypoint{
+    text-align: center;
+    height: 300px;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+.keypoint a{
+    padding-top: 10px;
+    font-weight: bold;
+     margin: auto;
+     width: 30px;
+     font-size: 25px;
+}
+.keypoint .key_feature{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+ padding-left: 129px;
+
+}
+
+.keypoint .key_feature p{
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color: black;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+    
+   
+}
+.keypoint .key_png{
+float: right;
+padding: 29px;
+}
+.keypoint .key_png img{
+    height: 200px;
+    align-items: center;
+    padding: 19px;
+    padding-right: 225px;
+}
+
+
+.test1{
+    padding: 50px;
+}
+.test1 h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.test1 .test1_container{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.test1 .test1_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.carousel{
+    position: relative;
+    z-index: -1;
+}
+.left carousel-control ,
+.right carousel-control 
+{
+    position: relative;
+    /* z-index: -1; */
+    
+}
+.test1 .test1_container .item{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: none;
+}
+.test1 .test1_container .item .item_img{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.test1 .test1_container .item .item_img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+   
+  
+}
+.test1 .test1_container .item .item_content{
+    text-align: center;
+}
+.test1 .test1_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.test1 .test1_container .item .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: #6bbee0;
+    padding: 25px;
+    height: 400px;
+    width: 100%;
+}
+footer .logo{
+    float: left;
+    padding: 70px;
+ 
+
+}
+footer .logo a{
+    float: left;
+  
+}
+footer .logo a img{
+    height: 150px;
+    width: auto;
+}
+
+footer .page{
+    text-align: center;
+}
+footer .page h3{
+    text-decoration: none;
+    margin-right:20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;    
+}
+footer .page a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(50, 57, 126);
+    font-size: 20px;
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-right: 1px solid orange;
+}
+footer .page a:hover{
+    color: white;
+}
+footer .doc{
+    text-align: center;
+} 
+footer .doc h3{
+    
+    text-decoration: none;
+    margin-right:20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;    
+    
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(50, 57, 126);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+border-left: 1px solid orange;
+padding: 5px;
+}
+footer .doc a:hover{
+    color: white;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    text-decoration: none;
+    margin-right:20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;    
+}
+footer .social a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+footer .social a:hover{
+    color: white;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    text-decoration: none;
+    margin-right:20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;    
+}
+footer .contact a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+footer .contact a:hover{
+    color: white;
+}
+footer hr{
+    margin: 0px;
+padding: 5px;
+}
+    
